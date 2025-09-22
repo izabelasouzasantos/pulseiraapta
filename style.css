@@ -8,7 +8,7 @@
 /* ==================== ESTILO DO BODY ==================== */
 body {
   font-family: 'Montserrat';
-  background: #ECF3F1;
+  background: #dbdbdb;
   color: #000000;
 }
 
@@ -67,7 +67,7 @@ body {
 .content {
   padding: 120px 30px 20px; 
   text-align: center;
-  background: #ECF3F1;
+  background: #dbdbdb;
 }
 
 .content h1 {
@@ -643,3 +643,35 @@ strong
   margin-top: 10px;   /* espaço acima */
 }
 
+/* ==================== CONTATO ==================== */
+.contato {
+  text-align: center;      /* Centraliza títulos e parágrafos */
+  padding: 40px 20px;
+}
+
+.contato-info {
+  margin: 0 auto;          /* Centraliza o bloco */
+  max-width: 500px;        /* Limita a largura no centro */
+  text-align: left;      /* Garante centralização dentro também */
+}
+
+.contato-info a {
+  color: #68A797;          /* Mantém os links destacados */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contato-info a:hover {
+  text-decoration: underline;
+}
+
+.contato-info a {
+  color: #506175;          /* Azul escuro para contraste */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contato-info a:hover {
+  color: #3c4957;          /* Muda para verde do projeto ao passar o mouse */
+  text-decoration: underline;
+}

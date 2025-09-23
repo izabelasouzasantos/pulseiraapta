@@ -705,8 +705,10 @@ strong
 @media (max-width: 768px) {
   .card-integrante {
     height: 280px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
   }
 }

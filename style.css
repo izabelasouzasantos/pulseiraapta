@@ -496,7 +496,7 @@ strong
 
 .form-contato textarea { resize: vertical; }
 
-.btn-enviar {
+/* .btn-enviar {
   background: #274c45;
   color: #fff;
   padding: 10px 18px;
@@ -508,7 +508,7 @@ strong
 
 .btn-enviar:hover {
   background: #1f3b38;
-}
+} */
 
 .contato-info {
   background: #68A797;
@@ -530,13 +530,14 @@ strong
   .contato-container { flex-direction: column; align-items: center; gap: 24px; }
 }
 
-.foto-integrante {
+/* .foto-integrante {
   width: 150px;
-  height: 150px;
+  height: 15px;
   object-fit: cover;
-  border-radius: 15px; /* menos arredondado */
+  border-radius: 15px; 
   margin-bottom: 10px;
 }
+
 .link-integrante {
   display: inline-block;
   margin-top: 8px;
@@ -548,7 +549,7 @@ strong
 .link-integrante:hover {
   text-decoration: underline;
   color: #1f3b38;
-}
+} */
 
 
 .integrantes {
@@ -566,8 +567,8 @@ strong
 }
 
 .foto-integrante {
-  width: 180px;        /* largura fixa */
-  height: 180px;       /* altura fixa */
+  width: 150px;        /* largura fixa */
+  height: 150px;       /* altura fixa */
   object-fit: cover;   /* mantém proporção e preenche o espaço */
   border-radius: 10%;  /* arredondamento leve */
   margin-bottom: 10px;
@@ -675,3 +676,29 @@ strong
   color: #3c4957;          /* Muda para verde do projeto ao passar o mouse */
   text-decoration: underline;
 }
+
+/* ==================== INTEGRANTES ==================== */
+/* .integrantes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+  justify-items: center;
+} */
+
+/* .card-integrante {
+  width: 200px; 
+  text-align: center;
+  background: #68A797;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.foto-integrante {
+  width: 120px; 
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover; 
+  margin-bottom: 10px;
+} */
+

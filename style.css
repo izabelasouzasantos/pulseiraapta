@@ -560,7 +560,7 @@ strong
 }
 
 .card-integrante {
-  background: #68A797;
+  background: #506175;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
@@ -578,7 +578,7 @@ strong
 .link-integrante {
   display: inline-block;
   margin-top: 5px;
-  color: #274c45;
+  color: #cecece;
   font-weight: 600;
   text-decoration: none;
 }
@@ -702,13 +702,3 @@ strong
   margin-bottom: 10px;
 } */
 
-@media (max-width: 768px) {
-  .card-integrante {
-    height: 280px;
-    width: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-  }
-}

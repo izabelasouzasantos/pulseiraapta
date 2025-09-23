@@ -86,16 +86,16 @@ body {
 
 /* ==================== QUEM SOMOS ==================== */
 .quem-somos {
-  background: #506175;
+  background: #68A797;
   color: #000000;
   padding: 80px 30px;
   text-align: center;
   transition: background 0.3s ease;
 }
-
+/* 
 .quem-somos:hover {
   background: #68A797;
-}
+} */
 
 .quem-somos h2 {
   color: #506175;
@@ -467,8 +467,8 @@ strong
   margin: 0 auto;
 }
 
-.form-contato {
-  background: #68A797;
+/* .form-contato {
+  background: #506175;
   padding: 20px;
   border-radius: 12px;
   flex: 1 1 320px;
@@ -494,7 +494,7 @@ strong
   box-sizing: border-box;
 }
 
-.form-contato textarea { resize: vertical; }
+.form-contato textarea { resize: vertical; } */
 
 /* .btn-enviar {
   background: #274c45;
@@ -702,3 +702,11 @@ strong
   margin-bottom: 10px;
 } */
 
+@media (max-width: 768px) {
+  .card-integrante {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
